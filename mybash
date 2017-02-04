@@ -1,3 +1,5 @@
 export EDITOR='vim' 
-export PATH=~/.npm-global/bin:$PATH
- 
+export PATH=~/.npm-packages/bin:$PATH
+if [ -n "$VIRTUAL_ENV" ]; then
+  . "$VIRTUAL_ENV/bin/activate"
+fi

@@ -1,4 +1,5 @@
 # My .rcs
+updated on 20-sep-2016, move my rcs to dropbox for easy of use and keep updated
 
 `
 git clone repo
@@ -14,5 +15,5 @@ if [ -f ~/.myrcs/mybash  ]; then
   source ~/.myrcs/mybash
 fi  
 `
-## Add tmux file
+## Add tmux file in .tmux.conf
 `source-file ~/.myrcs/mytmux`
